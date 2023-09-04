@@ -1,0 +1,28 @@
+.collapse {
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.collapsed {
+  max-height: 0;
+  opacity: 0;
+}
+
+.expanded {
+  max-height: 1000px; 
+  opacity: 1;
+}
+
+.collapse-header {
+  cursor: pointer;
+  background-color: #410d84;
+  color: aliceblue;
+  padding: 10px;
+}
+
+.collapse-content {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-top: none;
+  background-color: #56e1ba;
+}
